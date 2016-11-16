@@ -1,0 +1,15 @@
+﻿<cms_resource version="8.0">
+  <NewDataSet>
+    <cms_resource>
+      <ResourceID>404</ResourceID>
+      <ResourceDisplayName>Castleford Importer</ResourceDisplayName>
+      <ResourceName>Castleford</ResourceName>
+      <ResourceDescription>Content importer for Castleford/Brafton content APIs</ResourceDescription>
+      <ShowInDevelopment>false</ShowInDevelopment>
+      <ResourceGUID>4ebb5046-f7ba-44ee-9678-74cfce13811b</ResourceGUID>
+      <ResourceLastModified>2016-07-14T10:18:58.0152292+10:00</ResourceLastModified>
+      <ResourceIsInDevelopment>false</ResourceIsInDevelopment>
+      <ResourceHasFiles>false</ResourceHasFiles>
+    </cms_resource>
+  </NewDataSet>
+</cms_resource>

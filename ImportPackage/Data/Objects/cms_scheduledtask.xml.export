@@ -1,0 +1,26 @@
+﻿<cms_scheduledtask version="8.0">
+  <NewDataSet>
+    <cms_scheduledtask>
+      <TaskID>24504</TaskID>
+      <TaskName>CastlefordImport</TaskName>
+      <TaskDisplayName>CastlefordImport</TaskDisplayName>
+      <TaskAssemblyName>App_Code</TaskAssemblyName>
+      <TaskClass>CastlefordImporter</TaskClass>
+      <TaskInterval>hour;7/14/2016 9:15:10 AM;1;00:00:00;23:59:00;Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday</TaskInterval>
+      <TaskData></TaskData>
+      <TaskLastRunTime>2016-07-15T10:42:40.1217493+10:00</TaskLastRunTime>
+      <TaskNextRunTime>2016-07-15T10:42:40.1217493+10:00</TaskNextRunTime>
+      <TaskEnabled>false</TaskEnabled>
+      <TaskDeleteAfterLastRun>false</TaskDeleteAfterLastRun>
+      <TaskServerName></TaskServerName>
+      <TaskGUID>ee4bd5dc-e463-4dd2-8c07-cca55575e30c</TaskGUID>
+      <TaskLastModified>2016-07-15T10:42:42.5279497+10:00</TaskLastModified>
+      <TaskExecutions>0</TaskExecutions>
+      <TaskRunInSeparateThread>false</TaskRunInSeparateThread>
+      <TaskUseExternalService>false</TaskUseExternalService>
+      <TaskAllowExternalService>true</TaskAllowExternalService>
+      <TaskCondition></TaskCondition>
+      <TaskRunIndividually>false</TaskRunIndividually>
+    </cms_scheduledtask>
+  </NewDataSet>
+</cms_scheduledtask>

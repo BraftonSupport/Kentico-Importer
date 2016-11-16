@@ -1,0 +1,40 @@
+﻿<cms_info version="8.0">
+  <NewDataSet>
+    <cms_info>
+      <Key>machinename</Key>
+      <Value>WS-002</Value>
+    </cms_info>
+    <cms_info>
+      <Key>domainname</Key>
+      <Value>localhost:8080</Value>
+    </cms_info>
+    <cms_info>
+      <Key>currentuser</Key>
+      <Value>administrator</Value>
+    </cms_info>
+    <cms_info>
+      <Key>starttime</Key>
+      <Value>7/21/2016 1:26:55 PM</Value>
+    </cms_info>
+    <cms_info>
+      <Key>systemversion</Key>
+      <Value>8.0.5816.17364</Value>
+    </cms_info>
+    <cms_info>
+      <Key>hotfixversion</Key>
+      <Value>0</Value>
+    </cms_info>
+    <cms_info>
+      <Key>webapplication</Key>
+      <Value>False</Value>
+    </cms_info>
+    <cms_info>
+      <Key>historyname</Key>
+      <Value>temp.zip</Value>
+    </cms_info>
+    <cms_info>
+      <Key>historydate</Key>
+      <Value>7/21/2016 12:12:47 PM</Value>
+    </cms_info>
+  </NewDataSet>
+</cms_info>

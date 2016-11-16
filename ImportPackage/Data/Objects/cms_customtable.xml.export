@@ -1,0 +1,163 @@
+﻿<cms_customtable version="8.0">
+  <NewDataSet>
+    <cms_class>
+      <ClassID>4629</ClassID>
+      <ClassDisplayName>Castleford - imports</ClassDisplayName>
+      <ClassName>castleford.imports</ClassName>
+      <ClassUsesVersioning>false</ClassUsesVersioning>
+      <ClassIsDocumentType>false</ClassIsDocumentType>
+      <ClassIsCoupledClass>true</ClassIsCoupledClass>
+      <ClassXmlSchema>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"&gt;
+  &lt;xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"&gt;
+    &lt;xs:complexType&gt;
+      &lt;xs:choice minOccurs="0" maxOccurs="unbounded"&gt;
+        &lt;xs:element name="castleford_imports"&gt;
+          &lt;xs:complexType&gt;
+            &lt;xs:sequence&gt;
+              &lt;xs:element name="ItemID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" /&gt;
+              &lt;xs:element name="ItemGUID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" /&gt;
+              &lt;xs:element name="KenticoNodeID" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" /&gt;
+              &lt;xs:element name="BraftonNewsID"&gt;
+                &lt;xs:simpleType&gt;
+                  &lt;xs:restriction base="xs:string"&gt;
+                    &lt;xs:maxLength value="200" /&gt;
+                  &lt;/xs:restriction&gt;
+                &lt;/xs:simpleType&gt;
+              &lt;/xs:element&gt;
+              &lt;xs:element name="LastModifiedDate" type="xs:dateTime" /&gt;
+            &lt;/xs:sequence&gt;
+          &lt;/xs:complexType&gt;
+        &lt;/xs:element&gt;
+      &lt;/xs:choice&gt;
+    &lt;/xs:complexType&gt;
+    &lt;xs:unique name="Constraint1" msdata:PrimaryKey="true"&gt;
+      &lt;xs:selector xpath=".//castleford_imports" /&gt;
+      &lt;xs:field xpath="ItemID" /&gt;
+    &lt;/xs:unique&gt;
+  &lt;/xs:element&gt;
+&lt;/xs:schema&gt;</ClassXmlSchema>
+      <ClassFormDefinition>&lt;form version="2"&gt;&lt;field column="ItemID" columntype="integer" isPK="true" columnprecision="0" publicfield="false" guid="e4717aa9-5aae-46e1-b8f1-e7642cfb9f78"&gt;&lt;properties&gt;&lt;fieldcaption&gt;ItemID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="ItemGUID" columntype="guid" system="true" columnprecision="0" publicfield="false" guid="4ef07762-0ade-473a-a768-c0ec907d2678"&gt;&lt;properties&gt;&lt;fieldcaption&gt;GUID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;labelcontrol&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="KenticoNodeID" visible="true" columntype="guid" publicfield="false" guid="8aef1d94-26a0-4fc7-94b3-722f10223121"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Kentico Node ID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;controlname&gt;LabelControl&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="BraftonNewsID" visible="true" columntype="text" columnsize="200" publicfield="false" guid="d331dcdc-5a09-462b-9017-cefd5ed8f897"&gt;&lt;properties&gt;&lt;fieldcaption&gt;Brafton News ID&lt;/fieldcaption&gt;&lt;/properties&gt;&lt;settings&gt;&lt;AutoCompleteEnableCaching&gt;False&lt;/AutoCompleteEnableCaching&gt;&lt;AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;False&lt;/AutoCompleteShowOnlyCurrentWordInCompletionListItem&gt;&lt;Trim&gt;False&lt;/Trim&gt;&lt;AutoCompleteFirstRowSelected&gt;False&lt;/AutoCompleteFirstRowSelected&gt;&lt;controlname&gt;TextBoxControl&lt;/controlname&gt;&lt;FilterMode&gt;False&lt;/FilterMode&gt;&lt;/settings&gt;&lt;/field&gt;&lt;field column="LastModifiedDate" visible="true" columntype="datetime" columnprecision="7" publicfield="false" guid="84fe0c5c-29f0-42e3-a44c-d05d972ef587" reftype="Required"&gt;&lt;properties&gt;&lt;defaultvalue&gt;1/1/0001 1:00:00 PM&lt;/defaultvalue&gt;&lt;/properties&gt;&lt;settings&gt;&lt;TimeZoneType&gt;inherit&lt;/TimeZoneType&gt;&lt;DisplayNow&gt;True&lt;/DisplayNow&gt;&lt;EditTime&gt;True&lt;/EditTime&gt;&lt;CheckRange&gt;True&lt;/CheckRange&gt;&lt;controlname&gt;CalendarControl&lt;/controlname&gt;&lt;/settings&gt;&lt;/field&gt;&lt;/form&gt;</ClassFormDefinition>
+      <ClassNodeNameSource></ClassNodeNameSource>
+      <ClassTableName>castleford_imports</ClassTableName>
+      <ClassShowAsSystemTable>false</ClassShowAsSystemTable>
+      <ClassUsePublishFromTo>false</ClassUsePublishFromTo>
+      <ClassShowTemplateSelection>false</ClassShowTemplateSelection>
+      <ClassSKUMappings></ClassSKUMappings>
+      <ClassIsMenuItemType>false</ClassIsMenuItemType>
+      <ClassLastModified>2016-07-14T13:12:12.1985236+10:00</ClassLastModified>
+      <ClassGUID>8c0afec5-61ed-454d-a836-a332ee762420</ClassGUID>
+      <ClassCreateSKU>false</ClassCreateSKU>
+      <ClassIsProduct>false</ClassIsProduct>
+      <ClassIsCustomTable>true</ClassIsCustomTable>
+      <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+      <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+      <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+      <ClassSearchSettings>&lt;search&gt;&lt;item content="False" id="9f65f8d8-853a-43de-9da0-40f00e7d8d2c" searchable="True" tokenized="False" name="ItemID" /&gt;&lt;item content="False" id="8ef8b9f2-6537-46b9-bae5-8e8d6d849c39" searchable="False" tokenized="False" name="KenticoNodeID" /&gt;&lt;item content="True" id="b197348f-cb44-4ed3-bc55-c64a8340de15" searchable="False" tokenized="True" name="BraftonNewsID" /&gt;&lt;item content="False" id="7810c1b5-60f7-418c-a76d-385476fb71be" searchable="False" tokenized="False" name="ItemGUID" /&gt;&lt;/search&gt;</ClassSearchSettings>
+      <ClassSearchEnabled>true</ClassSearchEnabled>
+      <ClassVersionGUID>aadb5482-296a-437b-885e-3a29c6663cd1</ClassVersionGUID>
+    </cms_class>
+    <cms_permission>
+      <PermissionID>11996</PermissionID>
+      <PermissionDisplayName>{$general.delete$}</PermissionDisplayName>
+      <PermissionName>Delete</PermissionName>
+      <ClassID>4629</ClassID>
+      <PermissionGUID>1cd6d101-599f-4bfa-a239-5377de3f9f07</PermissionGUID>
+      <PermissionLastModified>2016-06-28T17:00:34.6578227+10:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.delete$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>4</PermissionOrder>
+    </cms_permission>
+    <cms_permission>
+      <PermissionID>11995</PermissionID>
+      <PermissionDisplayName>{$permissionnames.create$}</PermissionDisplayName>
+      <PermissionName>Create</PermissionName>
+      <ClassID>4629</ClassID>
+      <PermissionGUID>0b008296-1d27-45e1-ae9f-96f4ecf03f45</PermissionGUID>
+      <PermissionLastModified>2016-06-28T17:00:34.6421618+10:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.create$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>3</PermissionOrder>
+    </cms_permission>
+    <cms_permission>
+      <PermissionID>11993</PermissionID>
+      <PermissionDisplayName>{$permissionnames.read$}</PermissionDisplayName>
+      <PermissionName>Read</PermissionName>
+      <ClassID>4629</ClassID>
+      <PermissionGUID>b4158d58-6c3c-43e5-ade7-a43e055e33e2</PermissionGUID>
+      <PermissionLastModified>2016-06-28T17:00:34.5796589+10:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.read$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>1</PermissionOrder>
+    </cms_permission>
+    <cms_permission>
+      <PermissionID>11994</PermissionID>
+      <PermissionDisplayName>{$permissionnames.modify$}</PermissionDisplayName>
+      <PermissionName>Modify</PermissionName>
+      <ClassID>4629</ClassID>
+      <PermissionGUID>784a161d-8881-42e4-aaf5-b64b0d805ee1</PermissionGUID>
+      <PermissionLastModified>2016-06-28T17:00:34.6265258+10:00</PermissionLastModified>
+      <PermissionDescription>{$permissiondescription.customtable.modify$}</PermissionDescription>
+      <PermissionDisplayInMatrix>true</PermissionDisplayInMatrix>
+      <PermissionOrder>2</PermissionOrder>
+    </cms_permission>
+    <cms_transformation>
+      <TransformationID>4821</TransformationID>
+      <TransformationName>Preview</TransformationName>
+      <TransformationCode>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;GUID:&lt;/td&gt;
+    &lt;td&gt;&lt;%# Eval("ItemGUID") %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Kentico Node ID:&lt;/td&gt;
+    &lt;td&gt;&lt;%# Eval("KenticoNodeID") %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Brafton News ID:&lt;/td&gt;
+    &lt;td&gt;&lt;%# Eval("BraftonNewsID") %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Is Active Template:&lt;/td&gt;
+    &lt;td&gt;&lt;cms:CMSCheckBox ID="CheckBox4" Runat="server" Checked='&lt;%# Eval("ActiveMapping") %&gt;' Text="Is Active Template" /&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</TransformationCode>
+      <TransformationType>ascx</TransformationType>
+      <TransformationClassID>4629</TransformationClassID>
+      <TransformationVersionGUID>f773b256-6a76-4427-a1dd-a1eb1f07b7dc</TransformationVersionGUID>
+      <TransformationGUID>27b83e98-d7c2-41c1-b179-88e77e0d6933</TransformationGUID>
+      <TransformationLastModified>2016-06-28T17:02:56.4697935+10:00</TransformationLastModified>
+      <TransformationCustomizedColumns></TransformationCustomizedColumns>
+    </cms_transformation>
+    <cms_transformation>
+      <TransformationID>4820</TransformationID>
+      <TransformationName>Default</TransformationName>
+      <TransformationCode>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;GUID:&lt;/td&gt;
+    &lt;td&gt;&lt;%# Eval("ItemGUID") %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Kentico Node ID:&lt;/td&gt;
+    &lt;td&gt;&lt;%# Eval("KenticoNodeID") %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Brafton News ID:&lt;/td&gt;
+    &lt;td&gt;&lt;%# Eval("BraftonNewsID") %&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Is Active Template:&lt;/td&gt;
+    &lt;td&gt;&lt;cms:CMSCheckBox ID="CheckBox4" Runat="server" Checked='&lt;%# Eval("ActiveMapping") %&gt;' Text="Is Active Template" /&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</TransformationCode>
+      <TransformationType>ascx</TransformationType>
+      <TransformationClassID>4629</TransformationClassID>
+      <TransformationVersionGUID>f773b256-6a76-4427-a1dd-a1eb1f07b7dc</TransformationVersionGUID>
+      <TransformationGUID>7c9f503f-136d-419d-9812-99ab0c3097f5</TransformationGUID>
+      <TransformationLastModified>2016-06-28T17:02:56.4385484+10:00</TransformationLastModified>
+      <TransformationCustomizedColumns></TransformationCustomizedColumns>
+    </cms_transformation>
+  </NewDataSet>
+</cms_customtable>
