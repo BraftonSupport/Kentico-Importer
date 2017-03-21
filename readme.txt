@@ -25,9 +25,10 @@ Required settings:
 
 3.1. Extract archive
 
-Extract the provided archive (KenticoCastlefordInstaller.zip). You will see the following:
+Extract the provided archive https://github.com/BraftonSupport/Kentico-Importer/archive/master.zip. You will see the following:
 
 App_Code
+ImportPackage
 ImportPackage.zip
 readme.txt
 
