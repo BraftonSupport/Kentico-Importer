@@ -8,7 +8,7 @@ content API.
 1. Supported versions
 ---------------------
 
-Kentico 8.0, 8.1, 8.2 and 9.0.
+Kentico 8.0, 8.1, 8.2, 9.0 and 10.0.
 
 2. Preparation
 --------------
@@ -25,10 +25,9 @@ Required settings:
 
 3.1. Extract archive
 
-Extract the provided archive https://github.com/BraftonSupport/Kentico-Importer/archive/master.zip. You will see the following:
+Extract the provided archive (KenticoCastlefordInstaller.zip). You will see the following:
 
 App_Code
-ImportPackage
 ImportPackage.zip
 readme.txt
 
@@ -61,7 +60,7 @@ readme.txt
 
 3.3. Copy custom classes
 
- - Copy the contents of the provided App_Code folder to the App_Code folder of your target install.
+ - Copy the entire Castleford folder and its content in App_Code for your version to the App_Code folder of your target install.
  
  - Wait for the cache to rebuild. 
 
